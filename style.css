@@ -5,7 +5,6 @@
 body {
   background-color: aquamarine;
   display: flex;
-  flex-direction: row;
 }
 #general {
   display: flex;
