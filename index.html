@@ -50,10 +50,11 @@ No tienes que usarlas todas obligatoriamente, pero una buena organización será
     <!--*Etiquetas adicionales---h1, h2, etc. para títulos---p para párrafos---ul, ol para listas---blockquote para citas---strong y em para énfasis---a para enlaces
 Todo lo que pueda aportar semántica y claridad en el contenido, mejor, estas son solo un ejemplo.-->
     <header>
-      <h1>El desconocido mundo de las radiaciones</h1>
+      <h1>El Maravilloso Mundo del Diagnostico por Imagen</h1>
     </header>
     <div class="general">
       <aside>
+        <h2>Este es el aside</h2>
         <img src="/imagenes/favicon/android-chrome-512x512.png" alt="ejemplo" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, itaque
@@ -61,19 +62,54 @@ Todo lo que pueda aportar semántica y claridad en el contenido, mejor, estas so
           doloribus eum quam fugiat cum veritatis repellendus, explicabo
           molestias velit!
         </p>
+        <ul>
+          <li>Rayos X</li>
+          <li>Rayos Gamma</li>
+          <li>Campos Magnéticos</li>
+          <li>Tomografía</li>
+        </ul>
+        <a
+          href="https://es.wikipedia.org/wiki/Imagen_m%C3%A9dica"
+          target="_blank"
+          >Mas información sobre las imágenes de uso clínico</a
+        >
       </aside>
       <main>
+        <h2>Este es el main</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+          rerum eum ut quibusdam, expedita excepturi, esse nostrum nihil quod
+          molestiae soluta modi quo veritatis, ipsam neque aspernatur? Ipsum,
+          repellat veritatis!
+        </p>
         <section>
+          <h3>Esta es una sección</h3>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
           nostrum odio a recusandae, eveniet assumenda laudantium similique
           explicabo asperiores fugiat illum eum quaerat velit odit. Temporibus
           nesciunt nobis asperiores ipsa!
         </section>
         <section>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          vel dolorem rem iusto ab dicta quo praesentium voluptates aperiam.
-          Harum corrupti doloremque esse dolor numquam commodi? Labore saepe
-          vitae voluptate.
+          <form action="info.php">
+            <h3>Unete a nuestra newsletter sobre imagen clínica</h3>
+            <label for="Nombre">Introduce tu Nombre</label>
+            <input
+              type="text"
+              name="Nombre"
+              id="nombre"
+              placeholder="Escribe tu nombre"
+              required
+            />
+            <label for="email">Introduce tu E-Mail</label>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Escribe tu correo"
+              required
+            />
+            <input type="submit" value="Enviar" />
+          </form>
         </section>
       </main>
     </div>
