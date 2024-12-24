@@ -11,11 +11,28 @@ header {
   padding: 20px;
   display: flex;
   justify-content: center;
+  max-height: 15vh;
+}
+#logo_header {
+  display: flex;
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 h1 {
   display: flex;
   text-align: center;
+  align-items: center;
+  font-size: 4vw;
 }
+#ul_nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
 .general {
   display: flex;
   gap: 20px;
@@ -31,19 +48,26 @@ aside {
   min-height: 100px;
   margin: 1%;
   border: 1%;
+  align-items: center;
 }
-ul {
+#logo_aside {
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+}
+#ul_aside {
   display: flex;
   flex-direction: column;
   justify-content: left;
 }
-li {
+.li_aside {
   justify-content: left;
   align-content: left;
 }
 h2 {
   display: flex;
   text-align: center;
+  font-size: 3vw;
 }
 main {
   display: flex;
@@ -66,6 +90,7 @@ section {
 h3 {
   display: flex;
   justify-content: center;
+  font-size: 2.5vw;
 }
 form {
   display: flex;
